@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sultan Kudarat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning d-flex align-items-center gap-2 col-7 col-sm-auto me-0" href="index.html">
+                <img src="images/SKOS.png" alt="SK Logo" height="40" class="d-inline-block align-top rounded flex-shrink-0">
+                <span class="custom-navbar-brand-text d-inline-block">SULTAN KUDARAT</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex mx-auto my-2 my-lg-0 col-12 col-lg-4" action="destinations.html" method="GET">
+                    <input class="form-control form-control-sm me-2 bg-secondary text-white border-0" type="search" name="search" placeholder="Search categories (e.g., Mountain, Beach)..." aria-label="Search">
+                    <button class="btn btn-sm btn-outline-warning" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active fw-semibold text-warning" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="culture.html">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Inquire</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-center fw-bold mb-5">About the Province</h1>
+
+        <div class="row g-4 align-items-center mb-5">
+            <div class="col-md-6">
+                <h3 class="fw-bold text-success">History & Location</h3>
+                <p class="text-muted">Sultan Kudarat is located in the southwestern portion of Mindanao, bounded by Cotabato, South Cotabato, Sarangani, and Maguindanao. The province was officially established in 1973 and named in honor of the legendary Muslim ruler, Sultan Muhammad Dipatuan Kudarat, who defended the region against foreign rule.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/dome.webp" alt="Sultan Kudarat Location" class="img-fluid rounded shadow w-100">
+            </div>
+        </div>
+
+        <div class="row g-4 align-items-center mb-5 flex-md-row-reverse">
+            <div class="col-md-6">
+                <h3 class="fw-bold text-success">Culture, Traditions & Why Visit</h3>
+                <p class="text-muted">The province serves as a wonderful melting pot of cultures, harmonizing Christian settlers, Muslim Maguindanaons, and diverse indigenous tribes like the Blaan, Tboli, and Manobo. Tourists flock here to experience uncommercialized, pristine eco-tourism, safe community networks, and the proud heritages preserved across generations.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/kalimudan.jpg" alt="Culture" class="img-fluid rounded shadow w-100">
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-success text-white text-center py-4 mt-auto border-top border-warning border-3">
+        <p class="mb-0">&copy; 2026 Sultan Kudarat Provincial Tourism Council. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

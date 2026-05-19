@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Province Photo Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <!-- NAVIGATION BAR WITH GLOBAL SEARCH -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning d-flex align-items-center gap-2 col-7 col-sm-auto me-0" href="index.html">
+                <img src="images/SKOS.png" alt="SK Logo" height="40" class="d-inline-block align-top rounded flex-shrink-0">
+                <span class="custom-navbar-brand-text d-inline-block">SULTAN KUDARAT</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex mx-auto my-2 my-lg-0 col-12 col-lg-4" action="destinations.html" method="GET">
+                    <input class="form-control form-control-sm me-2 bg-secondary text-white border-0" type="search" name="search" placeholder="Search categories (e.g., Mountain, Beach)..." aria-label="Search">
+                    <button class="btn btn-sm btn-outline-warning" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="culture.html">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link active fw-semibold text-warning" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Inquire</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTAINER GRID -->
+    <div class="container my-5">
+        <h1 class="text-center fw-bold mb-2">Visual Gallery</h1>
+        <p class="text-center text-muted mb-5">Click on any image to open the preview.</p>
+
+        <!-- PHOTO CONTAINER GRID (30 IMAGES) -->
+        <div class="row g-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6" id="photoGridGroup">
+            <!-- Images remain mapped correctly -->
+            <div class="col"><img src="images/dome.webp" class="img-fluid rounded gallery-img w-100" data-index="0" alt="Provincial Capitol Palace - Golden Domes at Isulan"></div>
+            <div class="col"><img src="images/dagat.jpg" class="img-fluid rounded gallery-img w-100" data-index="1" alt="Balot Island Powdery White Sand Beach"></div>
+            <div class="col"><img src="images/palmera.jpg" class="img-fluid rounded gallery-img w-100" data-index="2" alt="La Palmera Mountain Ridge Rolling Hills in Columbio"></div>
+            <div class="col"><img src="images/bird.JPG" class="img-fluid rounded gallery-img w-100" data-index="3" alt="Baras Bird Sanctuary Migratory Egrets"></div>
+            <div class="col"><img src="images/falls.jpg" class="img-fluid rounded gallery-img w-100" data-index="4" alt="Bamban Falls Cascades in Senator Ninoy Aquino"></div>
+            <div class="col"><img src="images/city.jpg" class="img-fluid rounded gallery-img w-100" data-index="5" alt="Sultan Muhammad Dipatuan Kudarat Hero Monument"></div>
+            <div class="col"><img src="images/pastil.webp" class="img-fluid rounded gallery-img w-100" data-index="6" alt="Traditional Pastil Rice wrapped in Banana Leaf"></div>
+            <div class="col"><img src="images/talakudong.jpg" class="img-fluid rounded gallery-img w-100" data-index="7" alt="Talakudong Festival Golden Native Headgear Dance"></div>
+            <div class="col"><img src="images/katungan.jpg" class="img-fluid rounded gallery-img w-100" data-index="8" alt="Katunggan Coastal Eco-Park Mangrove Boardwalk in Lebak"></div>
+            <div class="col"><img src="images/cave.jpg" class="img-fluid rounded gallery-img w-100" data-index="9" alt="Tenobac Cave Stalactites Underground River System"></div>
+            <div class="col"><img src="images/pool.jpg" class="img-fluid rounded gallery-img w-100" data-index="10" alt="Marguez Hot and Cold Springs Forest Pools"></div>
+            <div class="col"><img src="images/bukid.jpg" class="img-fluid rounded gallery-img w-100" data-index="11" alt="Marawir Peak Jagged Mountain Wall in Esperanza"></div>
+            <div class="col"><img src="images/itom.jpg" class="img-fluid rounded gallery-img w-100" data-index="12" alt="Poral Beach Volcanic Dark Sand Shoreline"></div>
+            <div class="col"><img src="images/kalimudan.JPG" class="img-fluid rounded gallery-img w-100" data-index="13" alt="Kalimudan Festival Tribal Gathering Dance"></div>
+            <div class="col"><img src="images/lebak.webp" class="img-fluid rounded gallery-img w-100" data-index="14" alt="Makin Falls Turquoise Basin in Lebak"></div>
+            <div class="col"><img src="images/pitot.jpg" class="img-fluid rounded gallery-img w-100" data-index="15" alt="Pitot Kalabaw Hill Peak Panoramic Overlook"></div>
+            <div class="col"><img src="images/baka.jpg" class="img-fluid rounded gallery-img w-100" data-index="16" alt="Sinina Maguindanaon Traditional Beef Stew"></div>
+            <div class="col"><img src="images/white.jpg" class="img-fluid rounded gallery-img w-100" data-index="17" alt="White Islet Sandbar Ocean Low Tide Formations"></div>
+            <div class="col"><img src="images/groto.jpg" class="img-fluid rounded gallery-img w-100" data-index="18" alt="Gregory Cave Limestone Grotto Pools"></div>
+            <div class="col"><img src="images/bansada.webp" class="img-fluid rounded gallery-img w-100" data-index="19" alt="Bansada Agri-Eco Adventure Park Zipline Line"></div>
+            <div class="col"><img src="images/siranangan.jpg" class="img-fluid rounded gallery-img w-100" data-index="20" alt="Siranangan Beach Rocky Formations Breakwater"></div>
+            <div class="col"><img src="images/lilong.webp" class="img-fluid rounded gallery-img w-100" data-index="21" alt="Liliong Falls Emerald Canyon Curtain Cascades"></div>
+            <div class="col"><img src="images/weave.jpg" class="img-fluid rounded gallery-img w-100" data-index="22" alt="Dulangan Manobo Traditional Woven Heritage Arts"></div>
+            <div class="col"><img src="images/colon.jpg" class="img-fluid rounded gallery-img w-100" data-index="23" alt="Colon Sabalo Islet Scuba Reef Shelf Diver"></div>
+            <div class="col"><img src="images/hamugaya.jpg" class="img-fluid rounded gallery-img w-100" data-index="24" alt="Hamungaya Festival Agricultural Harvest Float"></div>
+            <div class="col"><img src="images/nalus.jpg" class="img-fluid rounded gallery-img w-100" data-index="25" alt="Nalus Falls Deep Mountain Stream Plunge Basin"></div>
+            <div class="col"><img src="images/lom.jpg" class="img-fluid rounded gallery-img w-100" data-index="26" alt="Lom Cave Subterranean River Trails"></div>
+            <div class="col"><img src="images/panigan.jpg" class="img-fluid rounded gallery-img w-100" data-index="27" alt="Panigan Underground River Entrance Cascade"></div>
+            <div class="col"><img src="images/inaul.jpg" class="img-fluid rounded gallery-img w-100" data-index="28" alt="Traditional Inaul Handwoven Fabric Patterns"></div>
+            <div class="col"><img src="images/donao.jpg" class="img-fluid rounded gallery-img w-100" data-index="29" alt="Donau Islet Rock Formations Marine Bird Colony"></div>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX PREVIEW OVERLAY BOOTSTRAP MODAL -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content lightbox-bg text-white border-0 rounded-0">
+                <div class="modal-header border-0"><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body text-center p-4 position-relative">
+                    <img src="" id="lightboxActiveImg" class="img-fluid max-vh-75 shadow rounded" alt="active view">
+                    <h5 id="lightboxCaption" class="mt-3 text-warning fw-semibold"></h5>
+                    <div class="d-flex justify-content-between position-absolute top-50 start-0 end-0 px-3 transform-translate-middle-y">
+                        <button class="btn btn-warning opacity-75 fw-bold" id="prevImageBtn">&lt; Prev</button>
+                        <button class="btn btn-warning opacity-75 fw-bold" id="nextImageBtn">Next &gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-success text-white text-center py-4 mt-auto border-top border-warning border-3">
+        <p class="mb-0">&copy; 2026 Sultan Kudarat Provincial Tourism Council. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

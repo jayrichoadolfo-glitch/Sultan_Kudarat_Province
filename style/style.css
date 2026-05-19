@@ -1,0 +1,20 @@
+
+.filter-btn.active { background-color: #ffc107 !important; color: #000 !important; font-weight: bold; }
+
+.gallery-img { cursor: pointer; transition: transform 0.2s ease; height: 200px; object-fit: cover; }
+.gallery-img:hover { transform: scale(1.04); filter: brightness(90%); }
+.lightbox-bg { background-color: rgba(0,0,0,0.95) !important; }
+
+/* Responsive Navbar Brand Text to ensure consistency with index.html */
+.custom-navbar-brand-text {
+    font-size: 1rem; /* Smaller typography size on mobile */
+    white-space: normal; /* Allows text to wrap over two lines if screen is extremely narrow */
+    line-height: 1.2;
+}
+
+@media (min-width: 576px) {
+    .custom-navbar-brand-text {
+    font-size: 1.25rem; /* Standard larger size on tablets and desktops */
+    }
+}
+    
