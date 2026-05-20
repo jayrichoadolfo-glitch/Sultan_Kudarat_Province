@@ -9,7 +9,6 @@
 </head>
 <body class="bg-light d-flex flex-column min-vh-100">
 
-    <!-- NAVIGATION BAR WITH GLOBAL SEARCH -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold text-warning d-flex align-items-center gap-2 col-7 col-sm-auto me-0" href="index.html">
@@ -36,14 +35,11 @@
         </div>
     </nav>
 
-    <!-- CONTAINER GRID -->
     <div class="container my-5">
         <h1 class="text-center fw-bold mb-2">Visual Gallery</h1>
         <p class="text-center text-muted mb-5">Click on any image to open the preview.</p>
 
-        <!-- PHOTO CONTAINER GRID (30 IMAGES) -->
         <div class="row g-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6" id="photoGridGroup">
-            <!-- Images remain mapped correctly -->
             <div class="col"><img src="images/dome.webp" class="img-fluid rounded gallery-img w-100" data-index="0" alt="Provincial Capitol Palace - Golden Domes at Isulan"></div>
             <div class="col"><img src="images/dagat.jpg" class="img-fluid rounded gallery-img w-100" data-index="1" alt="Balot Island Powdery White Sand Beach"></div>
             <div class="col"><img src="images/palmera.jpg" class="img-fluid rounded gallery-img w-100" data-index="2" alt="La Palmera Mountain Ridge Rolling Hills in Columbio"></div>
@@ -77,7 +73,6 @@
         </div>
     </div>
 
-    <!-- LIGHTBOX PREVIEW OVERLAY BOOTSTRAP MODAL -->
     <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content lightbox-bg text-white border-0 rounded-0">
@@ -94,7 +89,6 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
     <footer class="bg-success text-white text-center py-4 mt-auto border-top border-warning border-3">
         <p class="mb-0">&copy; 2026 Sultan Kudarat Provincial Tourism Council. All Rights Reserved.</p>
     </footer>
