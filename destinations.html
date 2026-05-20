@@ -9,7 +9,6 @@
 </head>
 <body class="bg-light d-flex flex-column min-vh-100">
 
-    <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold text-warning d-flex align-items-center gap-2 col-7 col-sm-auto me-0" href="index.html">
@@ -36,11 +35,9 @@
         </div>
     </nav>
 
-    <!-- CONTENT CONTAINER -->
     <div class="container my-5">
         <h1 class="text-center fw-bold mb-4">Discover Marvelous Spots</h1>
 
-        <!-- SEARCH AND FILTERS CONTROLS -->
         <div class="row g-3 mb-5 justify-content-center">
             <div class="col-md-6">
                 <input type="text" id="searchInput" class="form-control form-control-lg shadow-sm" placeholder="Search by name, city, or municipality...">
@@ -58,18 +55,15 @@
             </div>
         </div>
 
-        <!-- DYNAMIC CARDS CONTAINER -->
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="destinationsGrid"></div>
     </div>
 
-    <!-- DETAILS MODAL PIPELINE -->
     <div class="modal fade" id="destinationModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content" id="modalTargetBody"></div>
         </div>
     </div>
 
-    <!-- FOOTER -->
     <footer class="bg-success text-white text-center py-4 mt-auto border-top border-warning border-3">
         <p class="mb-0">&copy; 2026 Sultan Kudarat Provincial Tourism Council. All Rights Reserved.</p>
     </footer>
