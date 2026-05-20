@@ -1,16 +1,10 @@
-// ==========================================
-// 1. TOURIST DESTINATION DATA ARRAY (3 Per Category)
-// ==========================================
 const destinations = [
-    // ------------------------------------------
-    // CATEGORY: Beach
-    // ------------------------------------------
     {
         id: 1,
         name: "Balot Island",
         municipality: "Kalamansig",
         category: "Beach",
-        image: "images/dagat.jpg", // Note: Download a pristine white sand island image
+        image: "images/dagat.jpg",
         shortDescription: "An untouched coastal paradise featuring white sand shorelines.",
         fullDescription: "Balot Island is a hidden gem in Kalamansig boasting crystal-clear turquoise waters, a wide stretch of powdery white sand, and vibrant coral reefs ideal for snorkeling.",
         entranceFee: "Php 50",
@@ -24,7 +18,7 @@ const destinations = [
         name: "Poral Beach",
         municipality: "Lebak",
         category: "Beach",
-        image: "images/poral.jpg", // Note: Download a gray/dark sand beach image with waves
+        image: "images/poral.jpg",
         shortDescription: "A popular wide beach layout with unique dark volcanic sand.",
         fullDescription: "Poral Beach is a vast stretching coastline known for its therapeutic dark sand, strong refreshing waves from the Celebes Sea, and beautiful public cottage setups.",
         entranceFee: "Php 20",
@@ -38,7 +32,7 @@ const destinations = [
         name: "Siranangan Beach",
         municipality: "Kalamansig",
         category: "Beach",
-        image: "images/siranangan.jpg", // Note: Download a rocky beach coastal view image
+        image: "images/siranangan.jpg",
         shortDescription: "A stunning beach where rock formations meet the deep blue sea.",
         fullDescription: "Siranangan Beach offers dramatic landscapes featuring clean waters breaks, magnificent rock formations, and clear view of the open ocean.",
         entranceFee: "Php 30",
@@ -48,15 +42,12 @@ const destinations = [
         travelTips: "Wear protective footwear or aqua shoes to navigate the sharp rock formations safely."
     },
 
-    // ------------------------------------------
-    // CATEGORY: Mountain
-    // ------------------------------------------
     {
         id: 4,
         name: "Mount Daguma Range",
         municipality: "Bagumbayan",
         category: "Mountain",
-        image: "images/daguma.jpg", // Note: Download a lush, misty mountain range view
+        image: "images/daguma.jpg",
         shortDescription: "A majestic, misty mountain range covered in dense rainforests.",
         fullDescription: "The Mount Daguma Range spans across several towns, serving as a critical sanctuary for biodiversity, indigenous flora, and breathtaking high-altitude viewing decks.",
         entranceFee: "Free",
@@ -70,7 +61,7 @@ const destinations = [
         name: "Pitot Kalabaw Hill",
         municipality: "Lebak",
         category: "Mountain",
-        image: "images/pitot.jpg", // Note: Download a high green hill viewpoint overlooking plains
+        image: "images/pitot.jpg",
         shortDescription: "A scenic highland peak offering panoramic 360-degree views.",
         fullDescription: "Pitot Kalabaw Hill is an easily accessible viewing deck that provides sweeping views of Lebak's agricultural valleys, mountain gaps, and the sea breeze line.",
         entranceFee: "Php 20",
@@ -84,7 +75,7 @@ const destinations = [
         name: "Mount Pitong Gatang",
         municipality: "Senator Ninoy Aquino (SNA)",
         category: "Mountain",
-        image: "images/pitong-gatang.jpg", // Note: Download a rugged mountain peak or trail image
+        image: "images/pitong-gatang.jpg",
         shortDescription: "A challenging peak famous among seasoned local mountaineers.",
         fullDescription: "Mount Pitong Gatang offers rugged trails, rich mossy forests, and encounters with unique wildlife, rewarding climbers with a view above the clouds.",
         entranceFee: "Php 100 (Registration fee)",
@@ -94,15 +85,12 @@ const destinations = [
         travelTips: "This is a minor-to-major climb. Ensure your physical fitness and bring complete outdoor camping gear."
     },
 
-    // ------------------------------------------
-    // CATEGORY: Waterfall
-    // ------------------------------------------
     {
         id: 7,
         name: "Bamban Falls",
         municipality: "Senator Ninoy Aquino (SNA)",
         category: "Waterfall",
-        image: "images/falls.jpg", // Note: Download a clean, multi-tiered forest waterfall
+        image: "images/falls.jpg",
         shortDescription: "A refreshing forest-side cascade ideal for nature enthusiasts.",
         fullDescription: "Bamban Falls features cool springs and clear waters cleanly framed by rock formations preserved meticulously by indigenous Dulangan Manobo communities.",
         entranceFee: "Php 20",
@@ -116,7 +104,7 @@ const destinations = [
         name: "Nalus Falls",
         municipality: "Kiamba border / Bagumbayan",
         category: "Waterfall",
-        image: "images/nalus.jpg", // Note: Download a powerful waterfall dropping into a deep pool
+        image: "images/nalus.jpg",
         shortDescription: "A hidden powerful waterfall crashing down into a deep basin.",
         fullDescription: "Nalus Falls is an off-the-beaten-path ecotourism site featuring raw natural pools, heavy clean current drops, and cold running water straight from mountain springs.",
         entranceFee: "Php 30",
@@ -130,7 +118,7 @@ const destinations = [
         name: "Liliong Falls",
         municipality: "Esperanza",
         category: "Waterfall",
-        image: "images/lilong.webp", // Note: Download a curtain-like wide forest waterfall
+        image: "images/lilong.webp",
         shortDescription: "A scenic wide curtain waterfall enclosed in an emerald canyon.",
         fullDescription: "Liliong Falls features a serene curtain stream structure that flows gracefully down smooth rock basins, providing a relaxing paradise for adventurers.",
         entranceFee: "Php 25",
@@ -140,15 +128,12 @@ const destinations = [
         travelTips: "Be mindful of sudden weather changes; check with local guides regarding water behavior."
     },
 
-    // ------------------------------------------
-    // CATEGORY: Historical Site
-    // ------------------------------------------
     {
         id: 10,
         name: "Provincial Capitol Palace",
         municipality: "Isulan",
         category: "Historical Site",
-        image: "images/dome.webp", // Note: Download the famous Golden Mosque-style Capitol image
+        image: "images/dome.webp",
         shortDescription: "A glorious palace featuring majestic golden domes reflecting cultural roots.",
         fullDescription: "Commonly praised as one of the most beautiful provincial structures in the Philippines, this landmark incorporates traditional Arabic design with grand domes, serving as the seat of local governance.",
         entranceFee: "Free",
@@ -162,7 +147,7 @@ const destinations = [
         name: "Sultan Kudarat Monument",
         municipality: "Isulan",
         category: "Historical Site",
-        image: "images/city.jpg", // Note: Download an image of a historical hero statue
+        image: "images/city.jpg",
         shortDescription: "A heroic bronze monument dedicated to the legendary Sultan.",
         fullDescription: "This historical plaza landmark features a giant statue honoring Sultan Muhammad Dipatuan Kudarat, the brave warrior king who fiercely defended Mindanao against foreign colonization.",
         entranceFee: "Free",
@@ -176,7 +161,7 @@ const destinations = [
         name: "SNA Heritage Marker",
         municipality: "Senator Ninoy Aquino (SNA)",
         category: "Historical Site",
-        image: "images/heritage.jpg", // Note: Download a cultural village or tribal landmark image
+        image: "images/heritage.jpg",
         shortDescription: "A site honoring the indigenous tribes and early settlers.",
         fullDescription: "A landmark dedicated to preserving the cultural interactions, historical treaties, and heritage preservation stories of the Dulangan Manobo tribe and early Christian pioneers.",
         entranceFee: "Free",
@@ -186,15 +171,12 @@ const destinations = [
         travelTips: "Always ask permission from tribal elders before photographing sacred heritage installations."
     },
 
-    // ------------------------------------------
-    // CATEGORY: Island
-    // ------------------------------------------
     {
         id: 13,
         name: "Colon Sabalo Island",
         municipality: "Kalamansig",
         category: "Island",
-        image: "images/colon.jpg", // Note: Download an image of an isolated tropical islet
+        image: "images/colon.jpg",
         shortDescription: "An isolated islet featuring lush green canopies and coral shelves.",
         fullDescription: "An offshore islet ringed by shallow reef platforms, making it an exquisite, private destination for deep-sea diving, scuba training, and seeing thriving fish communities.",
         entranceFee: "Php 50 (Excluding boat rental)",
@@ -208,7 +190,7 @@ const destinations = [
         name: "White Islet Sandbar",
         municipality: "Lebak",
         category: "Island",
-        image: "images/white.jpg", // Note: Download a pristine ocean sandbar image
+        image: "images/white.jpg",
         shortDescription: "A stunning sandbar that emerges beautifully during low tide.",
         fullDescription: "A temporary pure white sandbar completely surrounded by clear waters. It shifts shapes depending on seasonal ocean currents and wind movements.",
         entranceFee: "Php 40",
@@ -222,7 +204,7 @@ const destinations = [
         name: "Donau Islet Rock",
         municipality: "Kalamansig",
         category: "Island",
-        image: "images/donao.jpg", // Note: Download a rocky outpost island image in blue water
+        image: "images/donao.jpg",
         shortDescription: "A striking rocky outcrop island ideal for extreme exploration.",
         fullDescription: "A dramatic, jagged rock island system rising boldly from the deep sea, serving as a nesting site for migratory sea birds and a challenge for cliff adventurers.",
         entranceFee: "Php 100 per boat approach",
@@ -232,15 +214,12 @@ const destinations = [
         travelTips: "Do not attempt to land on the island during choppy waves or rough weather conditions."
     },
 
-    // ------------------------------------------
-    // CATEGORY: Adventure
-    // ------------------------------------------
     {
         id: 16,
         name: "Marguez Hot and Cold Springs",
         municipality: "Esperanza",
         category: "Adventure",
-        image: "images/pool.jpg", // Note: Download an image of natural geothermal pools
+        image: "images/pool.jpg",
         shortDescription: "A therapeutic nature trek into merging hot and cold springs.",
         fullDescription: "An absolute outdoor wonderland where natural geothermal hot springs flow alongside a freezing freshwater river system, allowing travelers to experience both back-to-back.",
         entranceFee: "Php 40",
@@ -254,7 +233,7 @@ const destinations = [
         name: "Kudong Eco-Zipline",
         municipality: "Tacurong City / Isulan border",
         category: "Adventure",
-        image: "images/zipline.jpg", // Note: Download a zipline adventure image over trees
+        image: "images/zipline.jpg",
         shortDescription: "An exhilarating zipline ride over sprawling green plantations.",
         fullDescription: "Fly high across an adrenaline-pumping canopy zipline network that gives you a bird's-eye view of Sultan Kudarat's vast crop plains and valleys.",
         entranceFee: "Php 250 (Includes ride pass)",
@@ -268,7 +247,7 @@ const destinations = [
         name: "Caves of Esperanza",
         municipality: "Esperanza",
         category: "Adventure",
-        image: "images/cave.jpg", // Note: Download an image of cavern stalactites
+        image: "images/cave.jpg",
         shortDescription: "A thrilling caving expedition through ancient limestone systems.",
         fullDescription: "Explore massive underground limestone chambers featuring breathtaking stalactites, stalagmites, natural subterranean streams, and unique bat colonies.",
         entranceFee: "Php 150 (Includes safety gear rental)",
@@ -278,18 +257,13 @@ const destinations = [
         travelTips: "Helmets and headlamps are mandatory. Always stay close to your certified cave guide."
     }
 ];
-// ==========================================
-// 2. RUNTIME CONDITIONAL ROUTING PAGE SELECTION
-// ==========================================
+
 document.addEventListener("DOMContentLoaded", () => {
     if (document.getElementById("destinationsGrid")) initDestinationsPage();
     if (document.getElementById("photoGridGroup")) initGalleryPage();
     if (document.getElementById("inquiryForm")) initValidationForm();
 });
 
-// ==========================================
-// 3. DESTINATIONS RENDERING & FILTER ENGINE
-// ==========================================
 function initDestinationsPage() {
     const grid = document.getElementById("destinationsGrid");
     const search = document.getElementById("searchInput");
@@ -371,9 +345,6 @@ window.launchModalDetail = function(id) {
     instance.show();
 };
 
-// ==========================================
-// 4. GALLERY LIGHTBOX RUNTIME LOOP
-// ==========================================
 function initGalleryPage() {
     const images = document.querySelectorAll(".gallery-img");
     const activeImg = document.getElementById("lightboxActiveImg");
@@ -407,9 +378,6 @@ function initGalleryPage() {
     });
 }
 
-// ==========================================
-// 5. INQUIRY FORM BACKEND VALIDATOR
-// ==========================================
 function initValidationForm() {
     const form = document.getElementById("inquiryForm");
     const alertBox = document.getElementById("errorAlertBox");
@@ -429,7 +397,6 @@ function initValidationForm() {
         const visitors = parseInt(document.getElementById("visitorCount").value);
         const msg = document.getElementById("userMessage").value.trim();
 
-        // Specific logical checks 
         if (!name) messages.push("Full name field cannot be omitted.");
         if (!email || !/\S+@\S+\.\S+/.test(email)) messages.push("Please include a valid structural email address.");
         if (!phone || !/^\d+$/.test(phone)) messages.push("Contact string must contain absolute numbers only.");
@@ -449,17 +416,14 @@ function initValidationForm() {
     });
 }
 
-// CROOS-PAGE SEARCH LOGIC SYNCHRONIZER
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Check if we are currently on the destinations rendering page
+    
     const mainSearchInput = document.getElementById("searchInput");
     const navSearchInput = document.getElementById("navSearchInput");
 
-    if (mainSearchInput && navSearchInput) {
-        // Sync inputs on destination page for immediate live results
+    if (mainSearchInput && navSearchInput) {    
         navSearchInput.addEventListener("input", (e) => {
             mainSearchInput.value = e.target.value;
-            // Fire the standard filtering filter loop already inside your app.js
             mainSearchInput.dispatchEvent(new Event('input')); 
         });
 
@@ -468,16 +432,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // 2. Read URL Query Parameters (Handles routing search requests from Home, About, etc.)
     const urlParams = new URLSearchParams(window.location.search);
     const searchParamValue = urlParams.get('search');
 
     if (searchParamValue && mainSearchInput) {
-        // Set values into inputs
         mainSearchInput.value = searchParamValue;
         if (navSearchInput) navSearchInput.value = searchParamValue;
         
-        // Trigger your card data filtering engine execution immediately
         setTimeout(() => {
             mainSearchInput.dispatchEvent(new Event('input'));
         }, 100);
